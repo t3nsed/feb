@@ -1,6 +1,8 @@
-# Git Commit Analyzer
+# feb: Git Commit Analyzer
 
 A Rust-based tool that analyzes Git commit histories and rates each committer's coding style based on performance and maintainability metrics using the Deepseek AI API.
+
+Just a fun project to re-learn Rust and use Deepseek-r1, but afaik for something like this it doesn't really matter which model you use.
 
 ## Features
 
@@ -8,7 +10,6 @@ A Rust-based tool that analyzes Git commit histories and rates each committer's 
 - Generates performance and maintainability scores for each committer
 - Processes entire commit history
 - Provides detailed per-committer statistics
-- Uses AI-powered code analysis through Deepseek API
 
 ## Prerequisites
 
@@ -79,4 +80,4 @@ Scores are on a scale of 0-10, where:
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+MIT
